@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
     padding: 5,
     backgroundColor: "#445565",
     paddingTop: 0,
-    height: "93.5vh"
+    height: "85vh"
    
   },
   poptitle: {
