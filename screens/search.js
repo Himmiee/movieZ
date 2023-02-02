@@ -47,7 +47,7 @@ const openPopup = async (id) => {
          autoFocus={false}
          onSubmitEditing={searchMovies}
          value={input}
-         placeholder="Enter a movie..."
+         placeholder="Enter a movie...(pls add fullstop after title on android devices)"
          />
         {/* <Text>Showing results for {input}</Text> */}
       {
