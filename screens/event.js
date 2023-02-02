@@ -170,7 +170,7 @@ const styles = StyleSheet.create({
      },
      item:{
       display: "flex",
-      width: "98%",
+      width: "97%",
       backgroundColor: "#fff",
       margin: 5,
       border: "1px solid #fff"

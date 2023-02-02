@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     
   }, item:{
-    width: "98%",
+    width: "100%",
   },
   rating: {
    fontWeight: 400,
