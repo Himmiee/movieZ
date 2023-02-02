@@ -98,12 +98,15 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'start',
         padding: 10,
-        backgroundColor: "#223343" 
+        backgroundColor: "#223343",
     },
     container:{
       display: 'flex',
       justifyContent: 'center',
-      paddingTop: 50
+      paddingTop: 50,
+
+      backgroundColor: "#223343" 
+
      
     },
     images: {
