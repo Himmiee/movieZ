@@ -189,6 +189,7 @@ const styles = StyleSheet.create({
       fontSize: 24,
       fontWeight: 700,
       marginBottom: 5,
+      paddingTop:0,
       justifyContent: "center",
       alignItems: "center",
       color: "#fff",
@@ -215,7 +216,9 @@ const styles = StyleSheet.create({
     info: {
       color: "#fff",
       fontSize: 16,
-      padding: 15
+      padding: 10,
+      marginBottom: 20,
+      paddingBottom: 20
     }
     
 })

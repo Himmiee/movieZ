@@ -43,6 +43,7 @@ const openPopup = async (id) => {
       <TextInput 
         style={styles.searchbox}
          onChangeText={text => setInput(text)}
+         blurOnSubmit={false}
          onSubmitEditing={searchMovies}
          value={input}
          placeholder="Enter a movie..."
@@ -98,13 +99,12 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'start',
         padding: 10,
-        backgroundColor: "#223343",
+        backgroundColor: "#223343" ,
     },
     container:{
       display: 'flex',
       justifyContent: 'center',
       paddingTop: 50,
-
       backgroundColor: "#223343" 
 
      
@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
       padding: 5,
       backgroundColor: "#445565",
       paddingTop: 0,
-      height: "93.5vh"
+      height: "93%"
      
     },
     poptitle: {

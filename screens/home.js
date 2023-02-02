@@ -150,8 +150,7 @@ const styles = StyleSheet.create({
     padding: 5,
     backgroundColor: "#445565",
     paddingTop: 0,
-    height: "88vh"
-   
+    height: "93%"
   },
   poptitle: {
     fontSize: 24,
