@@ -43,7 +43,7 @@ const openPopup = async (id) => {
       <TextInput 
         style={styles.searchbox}
          onChangeText={text => setInput(text)}
-         autoFocus={true}
+         autoFocus={false}
          onSubmitEditing={searchMovies}
          value={input}
          placeholder="Enter a movie..."
