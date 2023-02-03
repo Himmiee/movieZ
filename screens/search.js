@@ -29,6 +29,13 @@ const openPopup = async (id) => {
   console.log(details)
   setSelected(details)
 }
+useEffect(() => {
+  window.scroll(0, 0);
+  searchMovies();
+  // eslint-disable-next-line
+}, [input]);
+
+    
 
 
 
@@ -43,12 +50,13 @@ const openPopup = async (id) => {
       <TextInput 
         style={styles.searchbox}
          onChangeText={text => setInput(text)}
-         multiline={false}
-         autoFocus={false}
-         onSubmitEditing={searchMovies}
+        //  multiline={false}
+        //  autoFocus={false}
+        //  onSubmitEditing={searchMovies}
          value={input}
-         placeholder="Enter a movie...(fullstop after title on android devices)"
+         placeholder="Enter a movie..."
          />
+         {/* <Text style={styles.mai}>PS. pls add fullstop after title on android devices</Text> */}
         {/* <Text>Showing results for {input}</Text> */}
       {
           data.map((post) => (
@@ -141,7 +149,18 @@ const styles = StyleSheet.create({
       fontSize: 32,
       marginBottom: 20,
       
-    }, item:{
+    }, 
+    mai: {
+      display: 'flex',
+      justifyContent: 'center',
+      margin: "auto",
+      color: "#fff",
+      padding: 10,
+      fontWeight: 700,
+      fontSize: 12,
+      marginBottom: 20,
+      
+    },item:{
       width: "100%",
     },
     rating: {
